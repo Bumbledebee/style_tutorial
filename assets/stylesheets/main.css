@@ -53,7 +53,11 @@ table {
 */
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Circular Book", "Helvetica - Regular", Helvetica, Arial, sans-serif;
+}
+
+#other_font {
+	font: 300 16px/22px "Nitti", "Courier - Regular"
 }
 
 h1, h2, h3, h4 {
@@ -175,10 +179,15 @@ h5 {
 }
 .hero p {
   font-size: 24px;
+	font-weight: 100;
 }
 
 .teaser a:hover h3 {
   color: #a9b2b9;
+}
+
+.tagline {
+  margin: 66px 0 22px 0;
 }
 
 /*
@@ -206,16 +215,14 @@ h5 {
 */
 
 .logo {
-	border-top: 4px solid #648880;
-	padding: 40px 0 22px 0;
+  border-top: 4px solid #648880;
   float: left;
-	font-size: 48px;
-	line-height: 44px;
-}
-
-.tagline {
-  margin: 66px 0 22px 0;
-	text-align: right;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
 }
 
 .primary-nav {
