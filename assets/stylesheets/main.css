@@ -52,7 +52,8 @@ table {
   ========================================
 */
 body {
-  color: #888;
+	background: #69B3E7;
+  color: #888; --#382E2C or #776E64
   font: 300 16px/22px "Circular Book", "Helvetica - Regular", Helvetica, Arial, sans-serif;
 }
 
@@ -215,7 +216,7 @@ h5 {
 */
 
 .logo {
-  border-top: 4px solid #648880;
+  border-top: 4px solid White;
   float: left;
   font-size: 48px;
   font-weight: 100;
@@ -223,6 +224,10 @@ h5 {
   line-height: 44px;
   padding: 40px 0 22px 0;
   text-transform: uppercase;
+}
+
+.white {
+	color: white;
 }
 
 .primary-nav {
@@ -256,11 +261,11 @@ h5 {
 */
 
 a {
-  color: #648880;
+  color: #009CDE;
   text-decoration: none;
 }
 a:hover {
-  color: #a9b2b9;
+  color: #F1B434;
 }
 p a {
   border-bottom: 1px solid #dfe2e5;
