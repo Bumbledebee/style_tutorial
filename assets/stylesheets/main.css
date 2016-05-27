@@ -176,7 +176,7 @@ h5 {
 
 .btn-default {
   border: 0;
-  background: #648880;
+  background: #FFB549;
   padding: 11px 30px;
   font-size: 14px;
 }
@@ -323,7 +323,7 @@ p a {
   ========================================
 */
 
-.why-attend {
+.extra-text {
   list-style: square;
   margin: 0 0 22px 30px;
 }
@@ -334,18 +334,18 @@ form {
 input,
 select,
 textarea {
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Circular - Book", "Helvetica - Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .register-group label {
-  color: #648880;
+  color: #9D968D;
   cursor: pointer;
   font-weight: 400;
 }
 .register-group input,
 .register-group select,
 .register-group textarea {
-  border: 1px solid #c6c9cc;
+  border: 1px solid #FFB549;
   border-radius: 5px;
   color: #888;
   display: block;
