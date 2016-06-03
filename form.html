@@ -29,24 +29,7 @@
 
     <section class="row">
       <div class="grid">
-        <section class="col-2-3">
-          <h2>Purchase a Conference Pass</h2>
-          <h5>$99 per Pass</h5>
-
-          <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
-
-          <h4>Still missing</h4>
-
-          <ul class="extra-text">
-            <li>Radio Buttion</li>
-            <li>Date selector</li>
-            <li>Checkbox</li>
-            <li>Dropdown for text (e.g. select adapter or ip)</li>
-          </ul>
-
-        </section><!--
-
-        --><form class="col-1-3" action="#" method="post">
+        <form class="col-1-3" action="#" method="post">
             <fieldset class="register-group">
 
               <label>
@@ -75,10 +58,60 @@
                 <textarea name="comments"></textarea>
               </label>
 
+              <label>
+                Date
+                <input type="date" name="birthday">
+              </label>
+
+              <label>
+                Time
+                <input type="time" name="game-time">
+              </label>
+
+              <label>
+                Radio Buttons Demo
+                <input type="radio" name="day" value="Friday" checked>Friday
+                <input type="radio" name="day" value="Saturday"> Saturday
+                <input type="radio" name="day" value="Sunday"> Sunday
+              </label>
+
+              <label>
+                Check Box Demo
+                <input type="checkbox" name="day" value="Friday" checked> Friday
+                <input type="checkbox" name="day" value="Saturday"> Saturday
+                <input type="checkbox" name="day" value="Sunday"> Sunday
+              </label>
+
+              <label class=button>
+                Time
+                <select name="day">
+                  <option value="Friday" selected>Friday</option>
+                  <option value="Saturday">Saturday</option>
+                  <option value="Sunday">Sunday</option>
+                </select>
+              </label>
+
+
         </fieldset>
 
         <input class="btn btn-default" type="submit" name="submit" value="Submit">
-        </form>
+        </form><!--
+        --><section class="col-2-3">
+          <h2>Purchase a Conference Pass</h2>
+          <h5>$99 per Pass</h5>
+
+          <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
+
+          <h4>Still missing</h4>
+
+          <ul class="extra-text">
+            <li>Radio Buttion</li>
+            <li>Date selector</li>
+            <li>Checkbox</li>
+            <li>Dropdown for text (e.g. select adapter or ip)</li>
+          </ul>
+
+        </section>
       </div>
     </section>
 

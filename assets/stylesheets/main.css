@@ -363,3 +363,7 @@ textarea {
 .register-group textarea {
   height: 78px;
 }
+
+.register-group buttons {
+  width: 10%;
+}
