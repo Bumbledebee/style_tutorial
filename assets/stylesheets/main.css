@@ -337,33 +337,50 @@ textarea {
   font: 300 16px/22px "Circular - Book", "Helvetica - Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.register-group label {
+.register-group label,
+.button-group label  {
   color: #9D968D;
   cursor: pointer;
   font-weight: 400;
 }
 .register-group input,
 .register-group select,
-.register-group textarea {
+.register-group textarea,
+.button-group input,
+.button-group select{
   border: 1px solid #FFB549;
   border-radius: 5px;
   color: #888;
-  display: block;
   margin: 5px 0 27px 0;
   padding: 5px 8px;
 }
+.button-group input{
+  display: inline;
+}
+
 .register-group input,
-.register-group textarea {
+.register-group select,
+.register-group textarea{
+  display: block;
+}
+
+.register-group input,
+.register-group textarea{
   width: 100%;
 }
-.register-group select {
+
+.register-group select,
+.button-group select {
   height: 34px;
-  width: 60px;
 }
+
 .register-group textarea {
   height: 78px;
 }
 
-.register-group buttons {
-  width: 10%;
+.register-group select {
+  width: 50px;
+}
+.button-group select {
+  width: 100px;
 }
