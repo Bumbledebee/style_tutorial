@@ -53,8 +53,8 @@ table {
 */
 body {
 	background: #69B3E7;
-  color: #382E2C --or --776E64
-  font: 300 16px/22px "Circular Book", "Helvetica - Regular", Helvetica, Arial, sans-serif;
+  color: #382E2C;
+  font: 300 14px/18px "Circular Book", "Helvetica - Regular", Helvetica, Arial, sans-serif;
 }
 
 #other_font {
@@ -171,7 +171,7 @@ h5 {
 }
 .btn-alt:hover {
   background: #fff;
-  color: #648880;
+  color: #382E2C;
 }
 
 .btn-default {
@@ -323,7 +323,7 @@ p a {
   ========================================
 */
 
-.extra-text {
+.bullet-point {
   list-style: square;
   margin: 0 0 22px 30px;
 }
@@ -381,6 +381,7 @@ textarea {
 .register-group select {
   width: 50px;
 }
+
 .button-group select {
   width: 100px;
 }
