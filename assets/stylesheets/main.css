@@ -331,6 +331,7 @@ p a {
 form {
   margin-bottom: 22px;
 }
+
 input,
 select,
 textarea {
@@ -342,7 +343,9 @@ textarea {
   color: #9D968D;
   cursor: pointer;
   font-weight: 400;
+	font: 300 16px/22px "Circular - Book", "Helvetica - Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .register-group input,
 .register-group select,
 .register-group textarea,
@@ -364,11 +367,6 @@ textarea {
   display: block;
 }
 
-.register-group input,
-.register-group textarea{
-  width: 100%;
-}
-
 .register-group select,
 .button-group select {
   height: 34px;
@@ -384,4 +382,19 @@ textarea {
 
 .button-group select {
   width: 100px;
+}
+
+.full input,
+.full textarea{
+  width: 100%;
+}
+
+.middle input,
+.middle textarea{
+  width: 50%;
+}
+
+.short input,
+.short textarea{
+  width: 30%;
 }

@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Styles Conference</title>
+    <title>Styles Template</title>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
   </head>
 
@@ -19,10 +19,10 @@
 
       <nav class="primary-nav nav">
         <a href="index.html">Home</a>
-        <a href="form.html">ADSUP</a>
-        <a href="form.html">DEVSUP</a>
-        <a href="form.html">ADOPS</a>
-        <a href="form.html">INT-MGMT</a>
+        <a href="form.html">AAAA</a>
+        <a href="form.html">BBB</a>
+        <a href="form.html">CCCC</a>
+        <a href="form.html">DDDDD</a>
       </nav>
 
     </header>
@@ -30,7 +30,7 @@
     <section class="row">
       <div class="grid">
         <form class="col-1-3" action="#" method="post">
-            <fieldset class="register-group">
+            <fieldset class="register-group full">
 
               <label>
                 Name
@@ -64,6 +64,24 @@
               <li>Gray Name: The grayed out name comes from the label tag</li>
               <li>Submit Button: The button at the end is a class="btn btn-default" button</li>
             </ul>
+
+            <fieldset class="register-group">
+
+              <label class="short">
+                short
+                <input type="text" name="name" placeholder="30% width" required>
+              </label>
+
+              <label class="middle">
+                middle
+                <input type="text" name="email" placeholder="50% width" required>
+              </label>
+
+              <label class="full">full
+                <textarea name="comments" placeholder="100% width"></textarea>
+              </label>
+
+            </fieldset>
 
           </section>
       </div>
