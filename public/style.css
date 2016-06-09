@@ -338,8 +338,7 @@ textarea {
   font: 300 16px/22px "Circular - Book", "Helvetica - Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.register-group label,
-.button-group label  {
+.register-group label {
   color: #9D968D;
   cursor: pointer;
   font-weight: 400;
@@ -348,27 +347,25 @@ textarea {
 
 .register-group input,
 .register-group select,
-.register-group textarea,
-.button-group input,
-.button-group select{
+.register-group textarea{
   border: 1px solid #FFB549;
   border-radius: 5px;
   color: #888;
   margin: 5px 0 27px 0;
   padding: 5px 8px;
 }
-.button-group input{
+
+.inline input{
   display: inline;
 }
 
-.register-group input,
-.register-group select,
-.register-group textarea{
+.block input,
+.block select,
+.block textarea{
   display: block;
 }
 
-.register-group select,
-.button-group select {
+.register-group select {
   height: 34px;
 }
 
@@ -376,25 +373,20 @@ textarea {
   height: 78px;
 }
 
-.register-group select {
-  width: 50px;
-}
-
-.button-group select {
-  width: 100px;
-}
-
 .full input,
-.full textarea{
+.full textarea,
+.full select{
   width: 100%;
 }
 
 .middle input,
-.middle textarea{
+.middle textarea,
+.middle select {
   width: 50%;
 }
 
 .short input,
-.short textarea{
-  width: 30%;
+.short textarea,
+.short select {
+  width: 25%;
 }

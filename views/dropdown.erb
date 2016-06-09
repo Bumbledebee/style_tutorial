@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Styles Template</title>
-    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link href="<%= url('/style.css') %>" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -12,17 +12,17 @@
     <header class="primary-header container group">
 
       <h1 class="logo">
-        <a href="index.html" >Internal <br> Tools</a>
+        <a href="index" >Internal <br> Tools</a>
       </h1>
 
       <h3 class="tagline nav">Simplify your life &#9731; </h3>
 
       <nav class="primary-nav nav">
-        <a href="index.html">Home</a>
-        <a href="form.html">AAAA</a>
-        <a href="form.html">BBB</a>
-        <a href="form.html">CCCC</a>
-        <a href="form.html">DDDDD</a>
+        <a href="index">Home</a>
+        <a href="form">AAAA</a>
+        <a href="form">BBB</a>
+        <a href="form">CCCC</a>
+        <a href="form">DDDDD</a>
       </nav>
 
     </header>
@@ -30,11 +30,11 @@
     <section class="row">
       <div class="grid">
         <form class="col-1-3" action="#" method="post">
-            <fieldset class="register-group">
+            <fieldset class="register-group block">
 
-              <label>
+              <label class="short">
                 How many ?
-                <select name="quantity" required>
+                <select name="quantity"  required>
                   <option value="1" selected>1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -44,20 +44,18 @@
               </label>
 
             </fieldset><!--
-            --><fieldset class="button-group">
+            --><fieldset class="register-group block">
 
-              <label>
+              <label class="middle">
                 <br>Month<br>
-                <select name="day">
+                <select name="day" >
                   <option value="Friday" selected>March</option>
                   <option value="Saturday">April</option>
                   <option value="Sunday">May</option>
                 </select>
               </label>
-            </fieldset><!--
-            --><fieldset class="long-group">
 
-              <label>
+              <label class="full">
                 <br>Take IP from this country:<br>
                 <select name="day">
                   <option value="200.58.97.198">Argentina 200.58.97.198</option>
@@ -96,11 +94,11 @@
       <small >&copy; SE Fyber </small>
 
       <nav class="nav">
-        <a href="index.html">home</a>
-        <a href="form.html">adsup</a>
-        <a href="form.html">devsup</a>
-        <a href="form.html">adops</a>
-        <a href="form.html">int mgmt</a>
+        <a href="index">home</a>
+        <a href="form">adsup</a>
+        <a href="form">devsup</a>
+        <a href="form">adops</a>
+        <a href="form">int mgmt</a>
       </nav>
       </footer>
   </body>
