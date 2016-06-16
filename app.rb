@@ -1,8 +1,8 @@
 require 'sinatra'
 
 set :server, 'webrick'
-set :bind, '10.90.0.40'
-set :port, 8080
+#set :bind, '10.90.0.40'
+#set :port, 8080
 
 get '/' do
   erb :index
