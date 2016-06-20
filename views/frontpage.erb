@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
-    <title>Styles Conference</title>
+    <title>Styles Template</title>
     <link href="<%= url('/style.css') %>" rel="stylesheet" type="text/css" />
   </head>
-
   <body>
     <!-- Header -->
     <header class="primary-header container group">
-
       <h1 class="logo">
-        <a href="index" >Internal <br> Tools</a>
+        <a href="index">Internal <br> Tools</a>
       </h1>
-
-      <h3 class="tagline nav">Solution Engineering Fyber </h3>
-
-      <nav class="primary-nav nav">
-        <a href="index">Home</a>
-        <a href="form">ADSUP</a>
-        <a href="form">DEVSUP</a>
-        <a href="form">ADOPS</a>
-        <a href="form">INT-MGMT</a>
-      </nav>
-
+      <h3 class="tagline nav">Solution Engineering </h3>
     </header>
 
     <!-- Hero -->
@@ -41,21 +28,36 @@
       <!-- Queries -->
 
       <section class="teaser col-1-3">
-        <a href="form">
-          <h5>Queries</h5>
-          <h3>Find Information</h3>
-        </a>
-        <p>Go above and beyond online stats and query apis, databases your normally do not have acces too.</p>
+        <div id="f1_container">
+          <div id="f1_card" >
+            <div class="front face">
+              <a href="form">
+                <h5>Queries</h5>
+                <h3>Find Information</h3>
+              </a>
+            </div>
+            <div class="back face center">
+              <p>Go above and beyond online stats and query apis, databases your normally do not have acces too.</p>
+            </div>
+          </div>
+        </div>
+
       </section><!--
 
       Example Apps
 
     --><section class="teaser col-1-3">
-        <a href="form">
-          <h5>Example Apps</h5>
-          <h3>How to integrate SDK & Adapters</h3>
-        </a>
-        <p>Select what you want to integrate and we provide you with an example app of the type of your wish.</p>
+        <div id="card">
+          <div class="front">
+            <a href="form">
+              <h5>Example Apps</h5>
+              <h3>How to integrate SDK & Adapters</h3>
+            </a>
+          </div>
+          <div class="back">
+            <p>Select what you want to integrate and we provide you with an example app of the type of your wish.</p>
+          </div>
+        </div>
       </section><!--
 
         Mobile Offer Wall API
@@ -117,5 +119,6 @@
         <a href="form">int mgmt</a>
       </nav>
       </footer>
+      <script src="js/index.js"></script>
   </body>
 </html>

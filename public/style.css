@@ -110,8 +110,16 @@ p h3, h4 {
   ========================================
 */
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5 {
   margin-bottom: 15px;
+}
+
+h5 {
+	margin-top: 9px;
+}
+
+p {
+  margin-bottom: 3px;
 }
 
 h1 {
@@ -327,14 +335,7 @@ form {
 input,
 select,
 textarea {
-  font: 300 14px/16px "Circular - Book", "Helvetica - Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.register-group label {
-  color: #9D968D;
-  cursor: pointer;
-  font-weight: 400;
-	font: 300 14px/14px "Circular - Book", "Helvetica - Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 14px/14px "Circular - Book", "Helvetica - Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .register-group input,
@@ -343,7 +344,7 @@ textarea {
   border: 1px solid #FFB549;
   border-radius: 5px;
   color: #888;
-  margin: 5px 0 16px 0;
+  margin: 5px 0 8px 0;
   padding: 5px 8px;
 }
 
@@ -381,4 +382,52 @@ textarea {
 .short textarea,
 .short select {
   width: 25%;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+/*
+  ========================================
+  flip experiment from http://css3.bradshawenterprises.com/flip/
+  ========================================
+*/
+
+#f1_container {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #69B3E7;
 }
