@@ -158,6 +158,10 @@ em, i
   font-style: italic;
   font-weight: inherit;
 }
+
+u {
+    text-decoration: underline;
+}
 /*
   ========================================
   Buttons
