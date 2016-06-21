@@ -17,18 +17,23 @@
     <section class="row">
       <div class="grid">
         <form class="col-1-3" action="#" method="post">
-            <fieldset class="register-group full block">
+          <fieldset class="register-group block">
 
-                Name
-                <input type="text" name="name" placeholder="Full name" required>
+            <label class="short">
+              ID
+              <input type="text" name="name" placeholder="2355" required>
+            </label>
 
-                Email
-                <input type="email" name="email" placeholder="Email address" required>
+            <label class="middle">
+              Name
+              <input type="text" name="email" placeholder="Alfred Hunter" required>
+            </label>
 
-              Comments
-                <textarea name="comments" ></textarea>
+            <label class="full">Address
+              <textarea name="comments" placeholder="100% width"></textarea>
+            </label>
 
-            </fieldset>
+          </fieldset>
 
             <input class="btn btn-default" type="submit" name="submit" value="Submit">
 
@@ -38,33 +43,19 @@
             <h5>H5 title</h5>
             <p>The normal text is closed into p tags</p>
             <ul class="bullet-point">
-              <li>Width 1: class="col-2-3" determines the width
-              and is part of the form here</li>
-              <li>Width 2: class="register-group" is set to 100% width and part
-              of the fieldset tag here</li>
               <li>Styling: Styling is done with register-group</li>
-              <li>Gray Name: The grayed out name comes from the label tag</li>
+              <li>Length in can be short, middle or full. It can be set in register-group or section. It will be either be 30, 50 or 100% of column width, which can be col-2-3 or col-1-3. </li>
+              <li>Gray Name: The grayed out name comes from input font</li>
               <li>Submit Button: The button at the end is a class="btn btn-default" button</li>
             </ul>
-
-            <fieldset class="register-group block">
-
-              <label class="short">
-                short
-                <input type="text" name="name" placeholder="30% width" required>
-              </label>
-
-              <label class="middle">
-                middle
-                <input type="text" name="email" placeholder="50% width" required>
-              </label>
-
-              <label class="full">full
-                <textarea name="comments" placeholder="100% width"></textarea>
-              </label>
-
-            </fieldset>
-
+            <fieldset class="register-group full block">
+                Name
+                  <input type="text" name="name" placeholder="Full name" required>
+                Email
+                  <input type="email" name="email" placeholder="Email address" required>
+                Comments
+                  <textarea name="comments" ></textarea>
+              </fieldset>
           </section>
       </div>
     </section>

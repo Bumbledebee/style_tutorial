@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h5 {
-	margin-top: 9px;
+	margin-top: 11px;
 }
 
 p {
@@ -147,6 +147,17 @@ h5 {
 	text-transform: uppercase;
 }
 
+strong, b
+{
+  font-weight: bold;
+  font-style: inherit;
+}
+
+em, i
+{
+  font-style: italic;
+  font-weight: inherit;
+}
 /*
   ========================================
   Buttons

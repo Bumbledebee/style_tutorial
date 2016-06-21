@@ -19,6 +19,7 @@
       <div class="grid">
         <form class="col-1-3" action="#" method="post">
             <fieldset class="register-group block">
+              <h3>Length not specified</h3>
                 How many ?
                 <select name="quantity" required>
                   <option value="1" selected>1</option>
@@ -29,8 +30,8 @@
                 </select>
 
             </fieldset><!--
-            --><fieldset class="register-group block">
-                <br>Month<br>
+            --><fieldset class="register-group inline">
+                Month<br>
                 <select name="day" >
                   <option value="Friday" selected>March</option>
                   <option value="Saturday">April</option>
@@ -38,7 +39,40 @@
                 </select>
 
                 <br>Take IP from this country:<br>
-                <select name="day">
+                <select name="day" >
+                  <option value="200.58.97.198">Argentina 200.58.97.198</option>
+                  <option value="223.252.33.75">Australia 223.252.33.75</option>
+                  <option value="149.154.153.92">Austria 149.154.153.92</option>
+                  <option value="81.95.121.251">Belgium 81.95.121.251</option>
+                  <option value="201.33.19.7">Brazil 201.33.19.7</option>
+                </select>
+            </fieldset>
+        <input class="btn btn-default" type="submit" name="submit" value="Submit">
+        </form>
+        <form class="col-1-3" action="#" method="post">
+            <fieldset class="register-group block short">
+              <h3>Length is short, middle or full</h3>
+                How many ?
+                <select name="quantity" required>
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+
+            </fieldset><!--
+            --><fieldset class="register-group inline middle">
+                Month<br>
+                <select name="day" >
+                  <option value="Friday" selected>March</option>s
+                  <option value="Saturday">April</option>
+                  <option value="Sunday">May</option>
+                </select>
+              </fieldset><!--
+              --><fieldset class="register-group inline full">
+                Take IP from this country:<br>
+                <select name="day" >
                   <option value="200.58.97.198">Argentina 200.58.97.198</option>
                   <option value="223.252.33.75">Australia 223.252.33.75</option>
                   <option value="149.154.153.92">Austria 149.154.153.92</option>
@@ -48,13 +82,13 @@
             </fieldset>
         <input class="btn btn-default" type="submit" name="submit" value="Submit">
         </form><!--
-        --><section class="col-2-3">
-          <h2>Purchase a Conference Pass</h2>
-          <h5>$99 per Pass</h5>
+        --><section class="col-2-3"><br>
+          <h2>Really important Header</h2>
+          <h5>Subtitle </h5>
 
-          <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
+          <p>Left length left is as needed, since the register-group does not entail full, middle or short class. A block will have more space, you can turn inline into a block when separating with br <> spacer.</p><br>
 
-          <h4>Still missing</h4>
+          <h4>Bullet Points</h4>
 
           <ul class="bullet-point">
             <li>Radio Buttion</li>
